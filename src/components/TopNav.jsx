@@ -4,7 +4,7 @@ import { PiPencil } from 'react-icons/pi';
 
 const TopNav = () => {
     return (
-        <div className='flex justify-between items-center py-8'>
+        <div className='flex justify-between items-center py-4'>
             <div className='flex gap-8'>
                 <div className='flex gap-6 items-center justify-between'>
                     <BiPhoneCall></BiPhoneCall>
@@ -17,7 +17,7 @@ const TopNav = () => {
             </div>
             <div className='flex gap-6 items-center justify-between'>
                 <BiUser></BiUser>
-                <button className='font-mono'>LOG IN / SIGN UP</button>
+                <button className=''>LOG IN / SIGN UP</button>
             </div>
 
         </div>
