@@ -19,7 +19,7 @@ const VerticalSlider = () => {
         arrows: false
     };
     return (
-        <div style={{ height: "100vh", overflow: "hidden" }}>
+        <div className='absolute w-full h-full object-cover' style={{ height: "100vh", overflow: "hidden" }}>
             <Slider {...settings}>
                 <div>
                     <img src={banner1} style={{ width: "100%", height: "100vh", objectFit: "cover" }} />
