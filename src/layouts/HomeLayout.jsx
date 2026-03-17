@@ -1,6 +1,7 @@
 import React from 'react';
 import TopNav from '../components/TopNav';
 import Banner from '../components/Banner';
+import DiscoverSection from '../components/DiscoverSection';
 
 
 
@@ -17,6 +18,7 @@ const HomeLayout = () => {
                 </nav>
                 <section className=''>
                     <Banner></Banner>
+                    <DiscoverSection></DiscoverSection>
                 </section>
 
             </header>
