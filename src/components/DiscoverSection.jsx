@@ -31,7 +31,7 @@ const DiscoverSection = () => {
                             </h2>
                         </div>
 
-                        <div className="text-gray-300 text-xl md:pl-8">
+                        <div className="text-gray-300 text-lg md:pl-8">
                             <p className="max-w-md">
                                 Brobit is a privately owned IT Support and IT Services business formed in 2008. Today we're proud to boast a
                                 strong team of IT engineers who thrive on rolling up their sleeves and solving your IT problems and meeting
@@ -41,7 +41,7 @@ const DiscoverSection = () => {
                     </div>
 
                     {/* Cards */}
-                    <div className="absolute top-44 max-w-6xl mx-auto mt-20 grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
+                    <div className="absolute top-36 max-w-6xl mx-auto mt-20 grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
                         <div className="flex justify-center md:justify-start">
                             <Card image={img1} label="Our Services" title="How We Can Help" />
                         </div>
@@ -59,7 +59,7 @@ const DiscoverSection = () => {
                 {/* Footer small link */}
                 
             </div>
-            <div className="mt-28 min-h-48 flex justify-center items-center text-center text-gray-400">
+            <div className="bg-gray-200 min-h-72 flex justify-center items-center text-center text-gray-700">
                     <p>
                         Stop wasting time and money on technology. <a href="#" className="text-cyan-400 underline">Explore our company</a>
                     </p>

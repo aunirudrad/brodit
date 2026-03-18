@@ -2,6 +2,9 @@ import React from 'react';
 import TopNav from '../components/TopNav';
 import Banner from '../components/Banner';
 import DiscoverSection from '../components/DiscoverSection';
+import Company from '../components/Company';
+import Home from '../pages/Home';
+import { Outlet } from 'react-router';
 
 
 
@@ -11,23 +14,13 @@ import DiscoverSection from '../components/DiscoverSection';
 const HomeLayout = () => {
     return (
         <div>
-            {/* header */}
             <header className=''>
                 <nav className='max-w-[90%] mx-auto'>
                     <TopNav></TopNav>
                 </nav>
-                <section className=''>
-                    <Banner></Banner>
-                    <DiscoverSection></DiscoverSection>
-                </section>
-
+                <Banner></Banner>
             </header>
-            <main>
-
-            </main>
-            <footer>
-
-            </footer>
+            <Outlet></Outlet>
         </div>
     );
 };
