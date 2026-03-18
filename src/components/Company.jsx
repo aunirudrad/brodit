@@ -5,13 +5,13 @@ import signature from '../assets/signature.png';
 
 const Company = () => {
   return (
-    <section className="bg-white py-20">
-      <div className="w-full mx-auto px-6">
+    <section className="bg-white">
+      <div className="w-full mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-28 items-end">
 
           {/* Left - Image with overlay and play button */}
-          <div className="relative w-full overflow-hidden rounded-md">
-            <img src={hero} alt="Team working" className="w-full h-[520px] object-cover" />
+          <div className="relative w-full overflow-hidden">
+            <img src={hero} alt="Team working" className="w-full object-cover" />
 
             {/* subtle teal overlay */}
             <div className="absolute inset-0 bg-teal-900/40 mix-blend-multiply"></div>

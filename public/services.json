@@ -6,7 +6,7 @@
             "title": "Web Development",
             "short_description": "Modern, scalable, and high-performance web applications.",
             "details": "We build responsive and dynamic web applications using modern technologies like React, Node.js, and cloud platforms. From landing pages to enterprise systems, we ensure performance, security, and scalability.",
-            "image": "/images/services/web-dev.jpg",
+            "image": "../src/assets/service-icon03.png",
             "icon": "FaCode",
             "category": "Development",
             "tags": [
@@ -41,7 +41,7 @@
             "title": "AI Agents Development",
             "short_description": "Custom intelligent agents to automate tasks and workflows.",
             "details": "We design and develop AI agents that can handle customer support, automation, and decision-making tasks using LLMs and advanced AI frameworks.",
-            "image": "/images/services/ai-agents.jpg",
+            "image": "../src/assets/service-icon02.png",
             "icon": "FaRobot",
             "category": "AI Solutions",
             "tags": [
