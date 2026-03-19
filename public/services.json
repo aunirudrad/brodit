@@ -6,7 +6,7 @@
             "title": "Web Development",
             "short_description": "Modern, scalable, and high-performance web applications.",
             "details": "We build responsive and dynamic web applications using modern technologies like React, Node.js, and cloud platforms. From landing pages to enterprise systems, we ensure performance, security, and scalability.",
-            "image": "../src/assets/service-icon03.png",
+            "image": "../src/assets/service-icon06.png",
             "icon": "FaCode",
             "category": "Development",
             "tags": [
@@ -74,7 +74,7 @@
             "title": "AI Solutions",
             "short_description": "End-to-end AI-powered systems tailored to your needs.",
             "details": "From recommendation systems to predictive analytics, we provide custom AI solutions that help businesses make smarter decisions.",
-            "image": "/images/services/ai-solutions.jpg",
+            "image": "../src/assets/bots-brands-solid.png",
             "icon": "FaBrain",
             "category": "AI Solutions",
             "tags": [

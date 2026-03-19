@@ -20,8 +20,8 @@ const HeroNav = () => {
                 <NavLink to='/' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
                     HOME
                 </NavLink>
-                <NavLink to='/pages' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    PAGES
+                <NavLink to='/services' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
+                    SERVICES
                 </NavLink>
                 <NavLink to='/internet' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
                     INTERNET

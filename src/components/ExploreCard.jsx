@@ -3,7 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router';
 
 const ExploreCard = () => (
-  <div className="bg-white rounded-lg shadow-lg p-10 text-center flex flex-col items-center justify-center">
+  <div className="max-w-lg mx-auto bg-white shadow-lg p-10 text-center flex flex-col items-center justify-center">
     <div className="mx-auto w-20 h-20 rounded-full bg-indigo-50 flex items-center justify-center mb-6">
       <FaArrowRight className="text-indigo-600 w-6 h-6" />
     </div>

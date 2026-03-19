@@ -1,0 +1,236 @@
+{
+    "main_services": [
+        {
+            "id": "main_001",
+            "slug": "ai-ml-research-development",
+            "title": "AI/ML Research & Development",
+            "short_description": "Advanced AI solutions, research implementation, and intelligent automation systems.",
+            "overview": "We provide end-to-end AI/ML services ranging from research and prototyping to production-grade deployment. Our focus is on building intelligent, scalable, and impactful systems.",
+            "image": "../src/assets/bots-brands-solid.png",
+            "icon": "FaBrain",
+            "category": "AI",
+            "benefits": [
+                "Data-driven decision making",
+                "Automation of complex workflows",
+                "Scalable AI architecture",
+                "Research-backed implementations"
+            ],
+            "workflow": [
+                "Problem identification",
+                "Data collection & preprocessing",
+                "Model development",
+                "Evaluation & optimization",
+                "Deployment"
+            ],
+            "sub_services": [
+                {
+                    "id": "srv_002",
+                    "title": "AI Agents Development",
+                    "short_description": "Custom intelligent agents for automation and interaction.",
+                    "details": "Develop AI-powered agents capable of handling tasks, conversations, and workflows.",
+                    "image": "/images/services/ai-agents.jpg",
+                    "icon": "FaRobot",
+                    "tags": [
+                        "Automation",
+                        "LLM",
+                        "Chatbots"
+                    ],
+                    "technologies": [
+                        "OpenAI API",
+                        "LangChain",
+                        "Python"
+                    ],
+                    "starting_price": "$300",
+                    "delivery_time": "2-4 weeks"
+                },
+                {
+                    "id": "srv_003",
+                    "title": "AI Solutions",
+                    "short_description": "Custom AI systems for real-world applications.",
+                    "details": "Build tailored AI models for prediction, analytics, and recommendation systems.",
+                    "image": "/images/services/ai-solutions.jpg",
+                    "icon": "FaBrain",
+                    "tags": [
+                        "Machine Learning",
+                        "Analytics"
+                    ],
+                    "technologies": [
+                        "TensorFlow",
+                        "PyTorch"
+                    ],
+                    "starting_price": "$400",
+                    "delivery_time": "3-8 weeks"
+                },
+                {
+                    "id": "srv_006",
+                    "title": "ML Model Implementation",
+                    "short_description": "Transform research into deployable ML systems.",
+                    "details": "Implement, train, and deploy ML models based on research papers or custom requirements.",
+                    "image": "/images/services/ml-model.jpg",
+                    "icon": "FaProjectDiagram",
+                    "tags": [
+                        "ML",
+                        "Deployment"
+                    ],
+                    "technologies": [
+                        "Python",
+                        "FastAPI",
+                        "Docker"
+                    ],
+                    "starting_price": "$250",
+                    "delivery_time": "2-5 weeks"
+                }
+            ],
+            "cta_text": "Explore AI Services",
+            "cta_link": "/services/ai",
+            "is_featured": true
+        },
+        {
+            "id": "main_002",
+            "slug": "full-stack-engineering",
+            "title": "Full-Stack Engineering",
+            "short_description": "Robust, scalable, and modern web application development.",
+            "overview": "We design and develop full-stack applications that are fast, secure, and scalable using modern frameworks and best practices.",
+            "image": "../src/assets/service-icon06.png",
+            "icon": "FaCode",
+            "category": "Development",
+            "benefits": [
+                "High-performance applications",
+                "Responsive design",
+                "Secure architecture",
+                "SEO-friendly structure"
+            ],
+            "workflow": [
+                "Requirement analysis",
+                "UI/UX design",
+                "Frontend development",
+                "Backend development",
+                "Testing & deployment"
+            ],
+            "sub_services": [
+                {
+                    "id": "srv_001",
+                    "title": "Web Development",
+                    "short_description": "Custom full-stack web application development.",
+                    "details": "Build dynamic and scalable web applications tailored to your business needs.",
+                    "image": "/images/services/web-dev.jpg",
+                    "icon": "FaCode",
+                    "tags": [
+                        "React",
+                        "Full Stack"
+                    ],
+                    "technologies": [
+                        "React",
+                        "Node.js",
+                        "MongoDB"
+                    ],
+                    "starting_price": "$200",
+                    "delivery_time": "2-6 weeks"
+                },
+                {
+                    "id": "srv_008",
+                    "title": "UI/UX Design",
+                    "short_description": "User-centered modern interface design.",
+                    "details": "Design intuitive and visually appealing interfaces with strong UX principles.",
+                    "image": "/images/services/uiux.jpg",
+                    "icon": "FaPenNib",
+                    "tags": [
+                        "Figma",
+                        "UX"
+                    ],
+                    "technologies": [
+                        "Figma",
+                        "Adobe XD"
+                    ],
+                    "starting_price": "$150",
+                    "delivery_time": "1-3 weeks"
+                }
+            ],
+            "cta_text": "Build Your Product",
+            "cta_link": "/services/development",
+            "is_featured": true
+        },
+        {
+            "id": "main_003",
+            "slug": "technical-research-documentation",
+            "title": "Technical Research & Documentation",
+            "short_description": "Professional academic and technical writing services.",
+            "overview": "We support researchers, students, and professionals with high-quality documentation, writing, and presentation services.",
+            "image": "../src/assets/file-pen-solid.png",
+            "icon": "FaBook",
+            "category": "Writing",
+            "benefits": [
+                "High-quality academic writing",
+                "Proper formatting & citation",
+                "Publication-ready content",
+                "Clear and structured presentation"
+            ],
+            "workflow": [
+                "Requirement understanding",
+                "Research & drafting",
+                "Editing & formatting",
+                "Review & revision",
+                "Final delivery"
+            ],
+            "sub_services": [
+                {
+                    "id": "srv_004",
+                    "title": "Thesis & Academic Writing",
+                    "short_description": "Complete support for thesis and research papers.",
+                    "details": "Assist in writing, structuring, and formatting academic documents.",
+                    "image": "/images/services/thesis.jpg",
+                    "icon": "FaBook",
+                    "tags": [
+                        "Thesis",
+                        "Research"
+                    ],
+                    "technologies": [
+                        "LaTeX",
+                        "MS Word"
+                    ],
+                    "starting_price": "$100",
+                    "delivery_time": "1-3 weeks"
+                },
+                {
+                    "id": "srv_005",
+                    "title": "Manuscript Writing & Revision",
+                    "short_description": "Prepare and refine manuscripts for publication.",
+                    "details": "Ensure your manuscript meets journal standards and improves acceptance chances.",
+                    "image": "/images/services/manuscript.jpg",
+                    "icon": "FaFileAlt",
+                    "tags": [
+                        "Journals",
+                        "Editing"
+                    ],
+                    "technologies": [
+                        "Grammarly",
+                        "Turnitin"
+                    ],
+                    "starting_price": "$120",
+                    "delivery_time": "1-2 weeks"
+                },
+                {
+                    "id": "srv_007",
+                    "title": "Slide & Presentation Design",
+                    "short_description": "Professional presentation design services.",
+                    "details": "Create impactful slides for academic, business, or conference use.",
+                    "image": "/images/services/slides.jpg",
+                    "icon": "FaSlideshare",
+                    "tags": [
+                        "Presentation",
+                        "Pitch Deck"
+                    ],
+                    "technologies": [
+                        "PowerPoint",
+                        "Google Slides"
+                    ],
+                    "starting_price": "$50",
+                    "delivery_time": "2-5 days"
+                }
+            ],
+            "cta_text": "Get Writing Support",
+            "cta_link": "/services/writing",
+            "is_featured": true
+        }
+    ]
+}
