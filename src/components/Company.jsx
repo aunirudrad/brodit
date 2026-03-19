@@ -5,9 +5,9 @@ import signature from '../assets/signature.png';
 
 const Company = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white py-40">
       <div className="w-full mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-28 items-end">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-28 items-center">
 
           {/* Left - Image with overlay and play button */}
           <div className="relative w-full overflow-hidden">
@@ -24,7 +24,7 @@ const Company = () => {
 
           {/* Right - Content */}
           <div className="py-6 w-[70%]">
-            <div className="text-cyan-600 text-sm tracking-widest uppercase mb-4">Our Company</div>
+            <div className="text-cyan-600 text-2xl tracking-widest uppercase mb-4">Our Company</div>
 
             <h3 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 leading-tight mb-4">
               We’ve been thriving
@@ -34,7 +34,7 @@ const Company = () => {
 
             <p className="italic font-semibold text-gray-700 mb-6">We have been providing internet and telecom services for more than 30 years!</p>
 
-            <p className="text-gray-500 mb-6 max-w-xl">
+            <p className="text-gray-500 mb-6 max-w-2xl">
               Having been in business for so many years, we are one of the most experienced internet service providers around. Indeed, SkyMax was one of the first providers of business broadband in the country.
             </p>
 
