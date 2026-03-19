@@ -33,3 +33,14 @@
 .group:hover .purchase-line {
   transform: translateY(-50%) scaleX(1);
 }
+
+.smooth-transition {
+  transform-origin: bottom;
+  transform: translateY(20%) scale(1);
+  transition: transform 800ms cubic-bezier(0.22, 1, 0.36, 1);
+
+}
+
+.smooth-transition:hover {
+  transform: translateY(18%) scale(1.1);
+}

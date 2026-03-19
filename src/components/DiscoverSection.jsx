@@ -4,8 +4,9 @@ import img2 from '../assets/img11.jpg';
 import img3 from '../assets/img12.jpg';
 
 const Card = ({ image, label, title }) => (
-    <div className="relative w-full hover:transform hover:-translate-y-1/8 hover:animate-pulse">
+    <div className="relative w-full hover:transform hover:-translate-y-1/8 transition-all smooth-transition">
         <img src={image} alt={title} className="w-full h-56 md:h-64 lg:h-48 object-cover shadow-lg" />
+        <div className="absolute inset-0 hover:bg-blue-500 hover:opacity-20"></div>
 
         <div className="absolute left-1/2 -bottom-8 transform -translate-x-1/2 bg-white px-6 py-4 shadow-md text-center w-64">
             <div className="text-xs text-cyan-600 uppercase tracking-widest mb-2">{label}</div>
@@ -42,8 +43,9 @@ const DiscoverSection = () => {
 
                     {/* Cards */}
                     <div className="absolute top-36 max-w-6xl mx-auto mt-20 grid grid-cols-1 md:grid-cols-3 gap-16 items-center">
-                        <div className="flex justify-center md:justify-start">
+                        <div className="relative flex justify-center md:justify-start">
                             <Card image={img1} label="Our Services" title="How We Can Help" />
+
                         </div>
 
                         <div className="flex justify-center">
@@ -57,13 +59,13 @@ const DiscoverSection = () => {
                 </div>
 
                 {/* Footer small link */}
-                
+
             </div>
             <div className="bg-gray-200 min-h-72 flex justify-center items-center text-center text-gray-700">
-                    <p>
-                        Stop wasting time and money on technology. <a href="#" className="text-cyan-400 underline">Explore our company</a>
-                    </p>
-                </div>
+                <p>
+                    Stop wasting time and money on technology. <a href="#" className="text-cyan-400 underline">Explore our company</a>
+                </p>
+            </div>
         </section>
     );
 };
