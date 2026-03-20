@@ -1,0 +1,247 @@
+{
+    "projects": [
+        {
+            "id": "proj_001",
+            "title": "CNN-ViT Ensemble for Vehicle & Pedestrian Detection",
+            "slug": "cnn-vit-vehicle-detection",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "Hybrid CNN and Vision Transformer model for real-time object detection.",
+            "details": "An ensemble deep learning model combining CNN and Vision Transformer to improve accuracy in detecting vehicles and pedestrians in urban environments.",
+            "supervisor": "Jakaira Zobair",
+            "client_type": "Academic",
+            "technologies": [
+                "PyTorch",
+                "OpenCV",
+                "Vision Transformer"
+            ],
+            "tags": [
+                "Computer Vision",
+                "Deep Learning"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "../src/assets/portfolio01-735x500.jpg",
+            "demo_link": "#",
+            "github_link": "#",
+            "is_featured": true
+        },
+        {
+            "id": "proj_002",
+            "title": "Riverbank Erosion Impact Analysis using Data-Driven Models",
+            "slug": "riverbank-erosion-analysis",
+            "category": "Technical Research & Documentation",
+            "type": "Thesis",
+            "short_description": "Assessment of environmental impact using data-driven approaches.",
+            "details": "A research-based thesis focusing on riverbank erosion and its socio-economic effects using statistical and machine learning methods.",
+            "supervisor": "Ms. Tasfia Anika Bushra",
+            "client_type": "Academic",
+            "technologies": [
+                "Python",
+                "Pandas"
+            ],
+            "tags": [
+                "Research",
+                "Data Analysis"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "../src/assets/portfolio06-735x700.jpg",
+            "is_featured": false
+        },
+        {
+            "id": "proj_003",
+            "title": "Litchi Leaf Disease Detection using Transfer Learning",
+            "slug": "litchi-disease-detection",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "CNN-based plant disease detection system.",
+            "details": "A deep learning model using transfer learning to identify litchi leaf diseases with high accuracy.",
+            "supervisor": "Israt Jahan",
+            "technologies": [
+                "TensorFlow",
+                "Keras"
+            ],
+            "tags": [
+                "Agriculture AI",
+                "CNN"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "../src/assets/portfolio03-735x500.jpg",
+            "is_featured": true
+        },
+        {
+            "id": "proj_004",
+            "title": "Stress Analysis of University Students During Exams",
+            "slug": "student-stress-analysis",
+            "category": "Technical Research & Documentation",
+            "type": "Thesis",
+            "short_description": "Behavioral and statistical analysis of student stress.",
+            "details": "A study analyzing stress levels among students using survey data and statistical modeling.",
+            "supervisor": "N/A",
+            "technologies": [
+                "SPSS",
+                "Excel"
+            ],
+            "tags": [
+                "Research",
+                "Psychology"
+            ],
+            "year": 2024,
+            "status": "Completed",
+            "image": "../src/assets/portfolio04-735x700.jpg",
+            "is_featured": false
+        },
+        {
+            "id": "proj_005",
+            "title": "Stroke Risk Prediction using MRI & Clinical Data",
+            "slug": "stroke-risk-prediction",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "Deep learning model for early stroke prediction.",
+            "details": "A predictive system leveraging MRI images and patient clinical data to identify stroke risks.",
+            "supervisor": "Md. Mezbaul Islam Zion",
+            "technologies": [
+                "PyTorch",
+                "NumPy"
+            ],
+            "tags": [
+                "Healthcare AI",
+                "Prediction"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "../src/assets/portfolio05-735x700.jpg",
+            "is_featured": true
+        },
+        {
+            "id": "proj_006",
+            "title": "Moringa Leaf Phenotyping using Deep Learning",
+            "slug": "moringa-phenotyping",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "Image-based plant phenotyping system.",
+            "details": "Deep learning-based approach to analyze moringa leaf characteristics for agricultural insights.",
+            "supervisor": "SM Aminul Haque",
+            "technologies": [
+                "TensorFlow"
+            ],
+            "tags": [
+                "Agriculture",
+                "Computer Vision"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "../src/assets/portfolio02-735x500.jpg",
+            "is_featured": false
+        },
+        {
+            "id": "proj_007",
+            "title": "Static Malware Detection using Machine Learning",
+            "slug": "malware-detection-ml",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "Feature-based malware classification system.",
+            "details": "A machine learning model designed to detect malware using static analysis techniques.",
+            "supervisor": "Abdus Sattar",
+            "technologies": [
+                "Scikit-learn"
+            ],
+            "tags": [
+                "Cybersecurity",
+                "ML"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "../src/assets/portfolio04-735x700.jpg",
+            "is_featured": true
+        },
+        {
+            "id": "proj_008",
+            "title": "NyAI – Intelligent AI Assistant",
+            "slug": "nyai-assistant",
+            "category": "Full-Stack Engineering",
+            "type": "Web + AI",
+            "short_description": "AI-powered assistant integrated into a web platform.",
+            "details": "A full-stack AI assistant with chat capabilities, API integrations, and real-time responses.",
+            "supervisor": "Jahidul Alam",
+            "technologies": [
+                "React",
+                "Node.js",
+                "OpenAI API"
+            ],
+            "tags": [
+                "AI Agent",
+                "Web App"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "/images/projects/nyai.jpg",
+            "is_featured": true
+        },
+        {
+            "id": "proj_009",
+            "title": "Breast Cancer Treatment Recommendation System",
+            "slug": "breast-cancer-recommendation",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "ML system for personalized treatment planning.",
+            "details": "A recommendation engine that suggests treatment plans based on patient data and predictive modeling.",
+            "supervisor": "Saiful Sir",
+            "technologies": [
+                "Python",
+                "Scikit-learn"
+            ],
+            "tags": [
+                "Healthcare",
+                "Recommendation"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "/images/projects/cancer.jpg",
+            "is_featured": true
+        },
+        {
+            "id": "proj_010",
+            "title": "Mango Leaf Disease Detection using CNN",
+            "slug": "mango-disease-detection",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "CNN-based plant disease classifier.",
+            "details": "Image-based disease detection system for mango leaves using convolutional neural networks.",
+            "supervisor": "Fokrey Sir",
+            "technologies": [
+                "TensorFlow"
+            ],
+            "tags": [
+                "Agriculture AI"
+            ],
+            "year": 2024,
+            "status": "Completed",
+            "image": "/images/projects/mango.jpg",
+            "is_featured": false
+        },
+        {
+            "id": "proj_011",
+            "title": "Potato Leaf Disease Detection using Lightweight Transformer",
+            "slug": "potato-transformer-detection",
+            "category": "AI/ML Research & Development",
+            "type": "ML Model",
+            "short_description": "Efficient transformer-based plant disease detection.",
+            "details": "A lightweight transformer model optimized for mobile and edge deployment.",
+            "supervisor": "Mr. Shahadat Hossain",
+            "technologies": [
+                "PyTorch"
+            ],
+            "tags": [
+                "Transformer",
+                "Edge AI"
+            ],
+            "year": 2025,
+            "status": "Completed",
+            "image": "/images/projects/potato.jpg",
+            "is_featured": true
+        }
+    ]
+}
