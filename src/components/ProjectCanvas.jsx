@@ -5,9 +5,9 @@ const layout = [
   { id: "slot_1", col: "1 / 3", row: "1 / 3" }, // big
   { id: "slot_2", col: "3 / 5", row: "1 / 4" }, // wide
   { id: "slot_3", col: "5 / 7", row: "1 / 3" }, // wide
-  { id: "slot_4", col: "1 / 3", row: "3 / 5" }, // vertical
-  { id: "slot_5", col: "3 / 5", row: "4 / 5" }, // small
-  { id: "slot_6", col: "5 / 7", row: "3 / 5" }  // small
+  { id: "slot_4", col: "1 / 3", row: "3 / 6" }, // vertical
+  { id: "slot_5", col: "3 / 5", row: "4 / 6" }, // small
+  { id: "slot_6", col: "5 / 7", row: "3 / 6" }  // small
 ];
 
 const ProjectCanvas = ({ project }) => {
@@ -45,6 +45,7 @@ const ProjectCanvas = ({ project }) => {
                                 bottom: 0,
                                 backgroundColor: 'rgba(0, 0, 0, 0.6)',
                                 display: 'flex',
+                                flexDirection: 'column',
                                 alignItems: 'center',
                                 justifyContent: 'center',
                                 color: 'white',
@@ -54,6 +55,10 @@ const ProjectCanvas = ({ project }) => {
                                 padding: '1rem'
                             }}>
                                 {proj.title}
+                                <br />
+                                <div className='absolute bottom-1/6 flex gap-2 justify-center items-center'>
+                                    {proj.technologies.map(technology => <p>{technology}</p>)}
+                                </div>
                             </div>
                         )}
                     </div>
