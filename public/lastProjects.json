@@ -10,11 +10,10 @@
             "details": "An ensemble deep learning model combining CNN and Vision Transformer to improve accuracy in detecting vehicles and pedestrians in urban environments.",
             "supervisor": "Jakaira Zobair",
             "client_type": "Academic",
-            "technologies": [
-                "PyTorch",
-                "OpenCV",
-                "Vision Transformer"
-            ],
+            "technologies": {
+                "PyTorch": "../src/assets/technologies-icons/pytorch.svg" ,
+                "OpenCV": "../src/assets/technologies-icons/opencv.svg"
+            },
             "tags": [
                 "Computer Vision",
                 "Deep Learning"
@@ -36,10 +35,10 @@
             "details": "A research-based thesis focusing on riverbank erosion and its socio-economic effects using statistical and machine learning methods.",
             "supervisor": "Ms. Tasfia Anika Bushra",
             "client_type": "Academic",
-            "technologies": [
-                "Python",
-                "Pandas"
-            ],
+            "technologies": {
+                "Python": "../src/assets/technologies-icons/python.svg",
+                "Pandas" : "../src/assets/technologies-icons/pandas.svg"
+            },
             "tags": [
                 "Research",
                 "Data Analysis"
@@ -58,10 +57,10 @@
             "short_description": "CNN-based plant disease detection system.",
             "details": "A deep learning model using transfer learning to identify litchi leaf diseases with high accuracy.",
             "supervisor": "Israt Jahan",
-            "technologies": [
-                "TensorFlow",
-                "Keras"
-            ],
+            "technologies": {
+                "TensorFlow":"../src/assets/technologies-icons/tensorflow.svg",
+                "Keras": "/src/assets/technologies-icons/keras.svg"
+            },
             "tags": [
                 "Agriculture AI",
                 "CNN"
@@ -80,10 +79,10 @@
             "short_description": "Behavioral and statistical analysis of student stress.",
             "details": "A study analyzing stress levels among students using survey data and statistical modeling.",
             "supervisor": "N/A",
-            "technologies": [
-                "SPSS",
-                "Excel"
-            ],
+            "technologies": {
+                "SaaS": "../src/assets/technologies-icons/sass.svg",
+                "Vercel": "../src/assets/technologies-icons/vercel.svg"
+            },
             "tags": [
                 "Research",
                 "Psychology"
@@ -102,10 +101,10 @@
             "short_description": "Deep learning model for early stroke prediction.",
             "details": "A predictive system leveraging MRI images and patient clinical data to identify stroke risks.",
             "supervisor": "Md. Mezbaul Islam Zion",
-            "technologies": [
-                "PyTorch",
-                "NumPy"
-            ],
+            "technologies": {
+                "PyTorch": "../src/assets/technologies-icons/pytorch.svg",
+                "NumPy": "../src/assets/technologies-icons/numpy.svg"
+            },
             "tags": [
                 "Healthcare AI",
                 "Prediction"
@@ -124,9 +123,9 @@
             "short_description": "Image-based plant phenotyping system.",
             "details": "Deep learning-based approach to analyze moringa leaf characteristics for agricultural insights.",
             "supervisor": "SM Aminul Haque",
-            "technologies": [
-                "TensorFlow"
-            ],
+            "technologies": {
+                "TensorFlow": "../src/assets/technologies-icons/tensorflow.svg"
+            },
             "tags": [
                 "Agriculture",
                 "Computer Vision"
@@ -145,9 +144,9 @@
             "short_description": "Feature-based malware classification system.",
             "details": "A machine learning model designed to detect malware using static analysis techniques.",
             "supervisor": "Abdus Sattar",
-            "technologies": [
-                "Scikit-learn"
-            ],
+            "technologies": {
+                "Scikit-learn": "/src/assets/technologies-icons/scikitlearn.svg"
+            },
             "tags": [
                 "Cybersecurity",
                 "ML"
@@ -166,11 +165,11 @@
             "short_description": "AI-powered assistant integrated into a web platform.",
             "details": "A full-stack AI assistant with chat capabilities, API integrations, and real-time responses.",
             "supervisor": "Jahidul Alam",
-            "technologies": [
-                "React",
-                "Node.js",
-                "OpenAI API"
-            ],
+            "technologies": {
+                "React": "/src/assets/technologies-icons/react.svg",
+                "Node.js": "/src/assets/technologies-icons/nodedotjs.svg",
+                "OpenAI API": "/src/assets/technologies-icons/openaigym.svg"
+            },
             "tags": [
                 "AI Agent",
                 "Web App"
