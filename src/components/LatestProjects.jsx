@@ -36,7 +36,7 @@ const LatestProjects = () => {
 
   return (
     
-    <section className="my-20 py-20 bg-white">
+    <section className="py-20 bg-white">
       <div className="w-full mx-auto">
         <div className="text-center mb-12">
           <div className="text-cyan-500 uppercase tracking-widest text-xl mb-3">Last Projects</div>

@@ -47,11 +47,11 @@ const ClientMessage = () => {
     if (feedbacks.length === 0) return null;
 
     return (
-        <section className="my-20 py-20 bg-white">
+        <section className="py-20">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Title */}
                 <div className="text-center mb-16">
-                    <div className="text-cyan-500 uppercase tracking-widest text-sm mb-3 font-semibold">
+                    <div className="text-cyan-500 uppercase tracking-widest text-xl mb-3">
                         What Client Says
                     </div>
                     <h2 className="text-3xl md:text-4xl font-extrabold text-gray-800">
