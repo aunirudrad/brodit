@@ -6,6 +6,7 @@ import Company from '../components/Company';
 import Services from '../components/Services';
 import ExploreCard from '../components/ExploreCard';
 import LatestProjects from '../components/LatestProjects';
+import ClientMessage from '../components/ClientMessage';
 
 const Home = () => {
     return (
@@ -18,6 +19,7 @@ const Home = () => {
                     <Services limit={3}></Services>
                     <ExploreCard />
                     <LatestProjects></LatestProjects>
+                    <ClientMessage></ClientMessage>
                 </section>
             </main>
             <footer>

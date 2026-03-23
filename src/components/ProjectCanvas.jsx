@@ -32,16 +32,24 @@ const ProjectCanvas = ({ project }) => {
                         onMouseEnter={() => setHoveredId(slot.id)}
                         onMouseLeave={() => setHoveredId(null)}
                     >
-                        <img src={proj.image} alt={proj.title} className="w-full h-full object-cover" />
+                        <img 
+                            src={proj.image} 
+                            alt={proj.title} 
+                            className="w-full h-full object-cover" 
+                            style={{
+                                transform: hoveredId === slot.id ? 'scale(1.1)' : 'scale(1)',
+                                transition: 'transform 0.5s cubic-bezier(0.4, 0, 0.2, 1)'
+                            }} 
+                        />
                         <div className="absolute inset-0  hover:opacity-20"></div>
                         {hoveredId === slot.id && (
-                            <div className="absolute inset-0 bg-blue-500 opacity-60 flex flex-col items-center justify-center text-white text-xl font-bold text-center p-4">
+                            <div className="absolute inset-0 bg-blue-500 opacity-60 flex flex-col items-center justify-center text-white text-xl font-bold text-center p-4 transition-all duration-300 ease-in-out">
                                 {proj.title}
                                 <br />
-                                <div className="absolute bottom-8 flex gap-4 justify-center items-center flex-wrap max-w-[90%]">
+                                <div className="absolute bottom-8 flex gap-4 justify-center items-center flex-wrap max-w-[90%] transition-all duration-300">
                                     {typeof proj.technologies === 'object' && proj.technologies !== null ? (
                                         Object.entries(proj.technologies).map(([techName, iconPath], idx) => (
-                                            <div key={idx} title={techName} className="flex items-center justify-center">
+                                            <div key={idx} title={techName} className="flex items-center justify-center transform transition-transform duration-300 hover:scale-110">
                                                 <img
                                                     src={iconPath}
                                                     alt={techName}
