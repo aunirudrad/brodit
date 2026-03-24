@@ -23,20 +23,17 @@ const HeroNav = () => {
                 <NavLink to='/services' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
                     SERVICES
                 </NavLink>
-                <NavLink to='/internet' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    INTERNET
+                <NavLink to='/about-us' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
+                    ABOUT US
                 </NavLink>
-                <NavLink to='/iptv' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    IPTV
+                <NavLink to='/completed-projects' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
+                    COMPLETED PROJECTS
                 </NavLink>
-                <NavLink to='/voip' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    VOIP
+                <NavLink to='/career' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
+                    CAREER
                 </NavLink>
-                <NavLink to='/blog' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    BLOG
-                </NavLink>
-                <NavLink to='/contact' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    CONTACT
+                <NavLink to='/request-quote' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
+                    REQUEST A QUOTE
                 </NavLink>
             </div>
 

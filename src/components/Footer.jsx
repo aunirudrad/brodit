@@ -58,34 +58,34 @@ const Footer = () => {
                             HOME
                         </NavLink>
                         <NavLink 
-                            to="/about" 
+                            to="/services" 
                             className={({ isActive }) => `uppercase tracking-widest transition-colors ${isActive ? 'text-cyan-400' : 'hover:text-cyan-400'}`}
                         >
-                            ABOUT
+                            SERVICES
                         </NavLink>
                         <NavLink 
-                            to="/internet" 
+                            to="/about-us" 
                             className={({ isActive }) => `uppercase tracking-widest transition-colors ${isActive ? 'text-cyan-400' : 'hover:text-cyan-400'}`}
                         >
-                            INTERNET
+                            ABOUT US
                         </NavLink>
                         <NavLink 
-                            to="/iptv" 
+                            to="/completed-projects" 
                             className={({ isActive }) => `uppercase tracking-widest transition-colors ${isActive ? 'text-cyan-400' : 'hover:text-cyan-400'}`}
                         >
-                            IPTV
+                            COMPLETED PROJECTS
                         </NavLink>
                         <NavLink 
-                            to="/voip" 
+                            to="/career" 
                             className={({ isActive }) => `uppercase tracking-widest transition-colors ${isActive ? 'text-cyan-400' : 'hover:text-cyan-400'}`}
                         >
-                            VOIP
+                            CAREER
                         </NavLink>
                         <NavLink 
-                            to="/blog" 
+                            to="/request-quote" 
                             className={({ isActive }) => `uppercase tracking-widest transition-colors ${isActive ? 'text-cyan-400' : 'hover:text-cyan-400'}`}
                         >
-                            BLOG
+                            REQUEST A QUOTE
                         </NavLink>
                         <NavLink 
                             to="/contacts" 
