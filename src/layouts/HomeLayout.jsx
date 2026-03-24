@@ -5,6 +5,7 @@ import DiscoverSection from '../components/DiscoverSection';
 import Company from '../components/Company';
 import Home from '../pages/Home';
 import { Outlet } from 'react-router';
+import Footer from '../components/Footer';
 
 
 
@@ -21,6 +22,9 @@ const HomeLayout = () => {
                 <Banner></Banner>
             </header>
             <Outlet></Outlet>
+            <footer>
+                <Footer></Footer>
+            </footer>
         </div>
     );
 };
