@@ -1,0 +1,43 @@
+{
+    "team": [
+        {
+            "id": "team_001",
+            "name": "YOUSUF RAYHAN EMON",
+            "designation": "Chief Executive Officer (CEO)",
+            "image": "../src/assets/testimonial-04.jpg",
+            "social_media_links": {
+                "facebook": "https://facebook.com/",
+                "x": "https://x.com/",
+                "linkedin": "https://linkedin.com/",
+                "portfolio": "https://yourportfolio.com/",
+                "instagram": "https://instagram.com/"
+            }
+        },
+        {
+            "id": "team_002",
+            "name": "SUMAYA MOSTOFA",
+            "designation": "Chief Operating Officer (COO)",
+            "image": "../src/assets/testimonial-05.jpg",
+            "social_media_links": {
+                "facebook": "https://facebook.com/",
+                "x": "https://x.com/",
+                "linkedin": "https://linkedin.com/",
+                "portfolio": "https://portfolio.com/",
+                "instagram": "https://instagram.com/"
+            }
+        },
+        {
+            "id": "team_003",
+            "name": "AUNIRUDRA DEY",
+            "designation": "Director of Operations",
+            "image": "../src/assets/testimonial-06.jpg",
+            "social_media_links": {
+                "facebook": "https://facebook.com/",
+                "x": "https://x.com/",
+                "linkedin": "https://linkedin.com/",
+                "portfolio": "https://portfolio.com/",
+                "instagram": "https://instagram.com/"
+            }
+        }
+    ]
+}

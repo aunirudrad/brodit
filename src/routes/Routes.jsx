@@ -3,6 +3,7 @@ import HomeLayout from '../layouts/HomeLayout';
 import Home from '../pages/Home';
 import Services from '../components/Services';
 import ServicesPage from '../pages/ServicesPage';
+import AboutUs from '../pages/AboutUs';
 
 async function servicesLoader() {
   const res = await fetch('/servicesUpdated.json');
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
         path: '/services',
         element: <ServicesPage></ServicesPage>,
         loader: servicesLoader
+      },
+      {
+        path: '/about-us',
+        element: <AboutUs></AboutUs>
+  
       }
     ]
   }
