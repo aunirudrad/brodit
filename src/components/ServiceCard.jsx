@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router';
 
-const ServiceCard = ({ service }) => {
+const ServiceCard = ({ service, onServiceClick }) => {
   const title = service.title || '';
   const description = service.short_description || '';
   const img = service.image || '';
@@ -29,9 +29,9 @@ const ServiceCard = ({ service }) => {
       )}
 
       <div className="text-center mt-auto">
-        <Link to={cta} className="inline-block text-sm text-cyan-600 border border-cyan-600 px-4 py-2 rounded hover:bg-cyan-600 hover:text-white transition">
+        <button onClick={() => onServiceClick(service.id)} className="inline-block text-sm text-cyan-600 border border-cyan-600 px-4 py-2 rounded hover:bg-cyan-600 hover:text-white transition">
           {service.cta_text || 'Learn More'}
-        </Link>
+        </button>
       </div>
     </div>
   );

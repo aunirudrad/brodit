@@ -25,7 +25,7 @@ const HomeLayout = () => {
                     currentLocation == '/' ? <div>
                         <Banner></Banner>
                     </div>
-                        : <div className='relative max-h-120 overflow-hidden'>
+                        : <div className='relative max-h-100 overflow-hidden'>
                             <Banner></Banner>
                         </div>
                 }

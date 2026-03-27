@@ -1,12 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData } from 'react-router';
 import ServiceCard from './ServiceCard';
 import ExploreCard from './ExploreCard';
+import SingleServiceCard from './SingleServiceCard';
 
 const Services = ({ limit }) => {
   const data = useLoaderData();
   const services = (data && data.main_services) || [];
   const displayedServices = services.slice(0, limit); // ensure only 3 main services
+  const [btnClick, setBtnClick] = useState(false);
+  const [selectedServiceId, setSelectedServiceId] = useState(null);
+
+  const handleServiceClick = (serviceId) => {
+    setSelectedServiceId(serviceId);
+    setBtnClick(true);
+  };
+
+  const selectedService = services.find(s => s.id === selectedServiceId);
 
   return (
     <section className="py-20">
@@ -22,9 +32,14 @@ const Services = ({ limit }) => {
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
           {displayedServices.map((s) => (
-            <ServiceCard key={s.id} service={s} />
+            <ServiceCard key={s.id} service={s} onServiceClick={handleServiceClick} />
           ))}
 
+        </div>
+        <div>
+          {btnClick && selectedService && (
+            <SingleServiceCard service={selectedService} />
+          )}
         </div>
         
       </div>
