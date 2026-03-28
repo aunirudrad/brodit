@@ -28,7 +28,7 @@
                     "title": "AI Agents Development",
                     "short_description": "Custom intelligent agents for automation and interaction.",
                     "details": "Develop AI-powered agents capable of handling tasks, conversations, and workflows.",
-                    "image": "/images/services/ai-agents.jpg",
+                    "image": "../src/assets/ai-agent.jpg",
                     "icon": "FaRobot",
                     "tags": [
                         "Automation",
@@ -48,7 +48,7 @@
                     "title": "AI Solutions",
                     "short_description": "Custom AI systems for real-world applications.",
                     "details": "Build tailored AI models for prediction, analytics, and recommendation systems.",
-                    "image": "/images/services/ai-solutions.jpg",
+                    "image": "../src/assets/ai-solution.jpg",
                     "icon": "FaBrain",
                     "tags": [
                         "Machine Learning",
@@ -66,7 +66,7 @@
                     "title": "ML Model Implementation",
                     "short_description": "Transform research into deployable ML systems.",
                     "details": "Implement, train, and deploy ML models based on research papers or custom requirements.",
-                    "image": "/images/services/ml-model.jpg",
+                    "image": "../src/assets/ml-model.png",
                     "icon": "FaProjectDiagram",
                     "tags": [
                         "ML",
@@ -113,7 +113,7 @@
                     "title": "Web Development",
                     "short_description": "Custom full-stack web application development.",
                     "details": "Build dynamic and scalable web applications tailored to your business needs.",
-                    "image": "/images/services/web-dev.jpg",
+                    "image": "../src/assets/web-dev.png",
                     "icon": "FaCode",
                     "tags": [
                         "React",
@@ -132,7 +132,7 @@
                     "title": "UI/UX Design",
                     "short_description": "User-centered modern interface design.",
                     "details": "Design intuitive and visually appealing interfaces with strong UX principles.",
-                    "image": "/images/services/uiux.jpg",
+                    "image": "../src/assets/ux-design.jpg",
                     "icon": "FaPenNib",
                     "tags": [
                         "Figma",
@@ -178,7 +178,7 @@
                     "title": "Thesis & Academic Writing",
                     "short_description": "Complete support for thesis and research papers.",
                     "details": "Assist in writing, structuring, and formatting academic documents.",
-                    "image": "/images/services/thesis.jpg",
+                    "image": "../src/assets/businessman-writing-book.jpg",
                     "icon": "FaBook",
                     "tags": [
                         "Thesis",
@@ -196,7 +196,7 @@
                     "title": "Manuscript Writing & Revision",
                     "short_description": "Prepare and refine manuscripts for publication.",
                     "details": "Ensure your manuscript meets journal standards and improves acceptance chances.",
-                    "image": "/images/services/manuscript.jpg",
+                    "image": "../src/assets/11879344_Checklist.jpg",
                     "icon": "FaFileAlt",
                     "tags": [
                         "Journals",
@@ -214,7 +214,7 @@
                     "title": "Slide & Presentation Design",
                     "short_description": "Professional presentation design services.",
                     "details": "Create impactful slides for academic, business, or conference use.",
-                    "image": "/images/services/slides.jpg",
+                    "image": "../src/assets/slide-presentation.jpg",
                     "icon": "FaSlideshare",
                     "tags": [
                         "Presentation",
