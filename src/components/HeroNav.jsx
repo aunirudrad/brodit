@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiSearch } from 'react-icons/bi';
 import { HiMenuAlt3 } from 'react-icons/hi';
+import { FiLock } from 'react-icons/fi';
 import { NavLink } from 'react-router';
 
 const HeroNav = () => {
@@ -26,15 +27,24 @@ const HeroNav = () => {
                 <NavLink to='/about-us' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
                     ABOUT US
                 </NavLink>
-                <NavLink to='/completed-projects' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    COMPLETED PROJECTS
-                </NavLink>
-                <NavLink to='/career' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    CAREER
-                </NavLink>
-                <NavLink to='/request-quote' className='text-white text-sm tracking-widest hover:text-gray-300 transition-colors'>
-                    REQUEST A QUOTE
-                </NavLink>
+                <div className='flex items-center gap-2 text-white text-sm tracking-widest opacity-60 cursor-not-allowed' title='Coming Soon'>
+                    <span className='cursor-not-allowed pointer-events-none'>
+                        COMPLETED PROJECTS
+                    </span>
+                    <FiLock className='w-4 h-4' />
+                </div>
+                <div className='flex items-center gap-2 text-white text-sm tracking-widest opacity-60 cursor-not-allowed' title='Coming Soon'>
+                    <span className='cursor-not-allowed pointer-events-none'>
+                        CAREER
+                    </span>
+                    <FiLock className='w-4 h-4' />
+                </div>
+                <div className='flex items-center gap-2 text-white text-sm tracking-widest opacity-60 cursor-not-allowed' title='Coming Soon'>
+                    <span className='cursor-not-allowed pointer-events-none'>
+                        REQUEST A QUOTE
+                    </span>
+                    <FiLock className='w-4 h-4' />
+                </div>
             </div>
 
             {/* Right Side - Search & Menu */}
