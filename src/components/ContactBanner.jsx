@@ -1,4 +1,5 @@
 import React from 'react';
+import manImage from '../assets/man.png';
 
 const ContactBanner = () => {
     return (
@@ -63,7 +64,7 @@ const ContactBanner = () => {
                     <div className="animate-in fade-in slide-in-from-right-8 duration-1000 delay-200">
                         <div className="relative flex items-center justify-center min-h-150">
                             <img
-                                src="/src/assets/man.png"
+                                src={manImage}
                                 alt="Professional jumping with laptop"
                                 className="w-full h-full object-cover"
                             />
